@@ -1,0 +1,26 @@
+{
+  "name": "cvr-shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc index.ts -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carrillocarlosce/cvr-shared.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carrillocarlosce/cvr-shared/issues"
+  },
+  "homepage": "https://github.com/carrillocarlosce/cvr-shared#readme",
+  "dependencies": {
+    "@types/firebase": "^3.2.1",
+    "@types/react": "^16.8.13"
+  }
+}
