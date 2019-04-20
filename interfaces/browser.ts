@@ -1,9 +1,4 @@
 import 'firebase';
-export interface ContextualMenuOption {
-    name: string,
-    action?(): void,
-    close?: boolean 
-}
 
 export interface BrowserItemType {
     id?: string;
