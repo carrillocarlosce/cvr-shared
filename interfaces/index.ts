@@ -34,3 +34,13 @@ export interface ContextualMenuOption {
     action?(): void,
     close?: boolean 
 }
+
+export interface User {
+    uid: string;
+    photoURL?: string;
+    name?: string;
+    email?: string;
+    claims?: {
+        [key: string]: any
+    }
+}
